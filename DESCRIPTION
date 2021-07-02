@@ -1,0 +1,41 @@
+Package: USenergyDataCleaning
+Title: Helper functions for data wrangling of the USA energy dataset
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ilya",
+           family = "Zarubin",
+           role = c("aut", "cre"),
+           email = "zarubin@wiso.uni-koeln.de")
+Description: The collection of helper functions for data
+    wrangling includes visualization, descriptive stats and preparing the
+    data to be run by the PGAS estimation procedure developed in the paper
+    by AUTHORS.
+License: GPL (>= 2)
+URL: https://github.com/useRaddictIZ/USenergyDataCleaning
+BugReports: 
+    https://github.com/useRaddictIZ/USenergyDataCleaning
+Depends: 
+    R (>= 3.6)
+Imports:
+    rlang,
+    readxl,
+    magrittr,
+    purrr,
+    sjlabelled,
+    tibble,
+    tidyselect,
+    tidyr,
+    dplyr,
+    haven,
+    ggplot2,
+    grid,
+    gridExtra,
+    RColorBrewer,
+    wesanderson,
+    crayon,
+    stringr,
+    eia
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
